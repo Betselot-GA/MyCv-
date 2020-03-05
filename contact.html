@@ -1,125 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<hr>
-<table align="center">
-    <tr>
-        <td><a style="color: floralwhite;" href="index.html">HOME</a> |</td>
-        <td><a style="color: floralwhite;" href="contact.html">CONTACT</a> |</td>
-        <td><a style="color: floralwhite;" href="gallery.html">GALLERY</a></td>
-        <td><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-            <i class="fa fa-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
-            </td>
-    </tr>
-
-</table>
-
-
-
-
-
-
-<hr>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betselot CV</title>
-    <table style="background-color:black;" cellspacing="10">
-        <tr>
-        <td>
-        <img src="assets/contactme.png" alt="Betselot Getnet's Profile Image">
-       </td>
-        <td>
-            <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif;color: floralwhite;">BETSELOT GETNET</h1>
-            <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: floralwhite;">STUDENT, ADDIS ABABA INSTITUTE OF TECHNOLOGY</h3>
-            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: floralwhite;">HELLO THERE, </p>
-            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: floralwhite;">I AM BETSELOT, I AM EXPERT DEVELOPER WHO HAS BEEN WORKING ON JAVA SINCE 
-                <em>5</em> YEARS.I AM PASSIONATE ABOUT WORKING IN DIFFERENT TYPES OF PROGRAMMING LANGUAGES.
-            </p>
-        </td>
-    </tr>
+    <title>contactme page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT-ME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
 
-     <table align="right">
-        <tr>
-            <td> <br></td>
-            <td>
+    <img src="assets/profile.jpg" class="profile">
+
+    <p class="aboutme">
+        <b>BETSELOT GETNET</b>
+         
+       <br>
+        STUDENT, ADDIS ABABA INSTITUTE OF TECHNOLOGY<br><br>
+        HELLO THERE,<br>
+        I AM BETSELOT, I AM EXPERT DEVELOPER WHO HAS BEEN WORKING ON JAVA SINCE 
+            <em>5</em> YEARS.I AM PASSIONATE ABOUT WORKING IN DIFFERENT TYPES OF PROGRAMMING LANGUAGE
+    </p>
+    <p class="break">
+        Contact Me:
+    </p>
+
+
+    <article>
+        <p class="container">
+            <div class="map">
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20Institute%20of%20Technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+                </div>
             </div>
-            </td>
-        </tr>
-    </table>
-    
-
-
-</table>
-        
-    
-    <form action="https://mail.google.com/mail/u/0/#inbox" method="POST" enctype="utf-8" target="blank">
-        
-        <table cellspacing = "25">
-            <tr><td style="color: floralwhite;"><h3>CONTACT ME</h3></td></tr>
-            <td>
-                <tr>
-                    <td style="color: floralwhite;"><label for="name">FIRST NAME:</label></td>
-                    <td><input type="text" maxlength="32" name="first_name" pattern="[A-Za-z]{1,32}" value="'.$_SESSION['user_first_name'].'" required><br></td>
-                    <br>
-                </tr>
-            <tr>
-                <td style="color: floralwhite;"><label for="name">LAST NAME:</label></td>
-                <td><input type="text" maxlength="32" name="last_name" pattern="[A-Za-z]{1,32}" value="'.$_SESSION['user_last_name'].'" required><br>
-                    <br></td>
-            </tr>
-           
-            <tr>
-                <td style="color: floralwhite;"><label for="email" name="email">EMAIL:</label></td>
-                <td><input type="email" name="email" id="email" placeholder="EMAIL" pattern="[a-z0-9{5,}$" minlength="10" size="20" required><br>
-                    <br></td>
-            </tr>
-    
-            <tr>
-                <td style="color: floralwhite;"><label for="tel" name = "tel">PHONE NUMBER:</label></td>
-                <td><input type="tel" id="tel" name="tel" placeholder="PHONE NUMBER" pattern="{0-9}" title="Phone should only contain numbers!" required><br></td>
-            </tr>
-
-            <tr>
-                <td style="color: floralwhite;"><label for="password" name = "password">PASSWORD:</label></td>
-                <td><input type="password" id="pass" name="password" placeholder="PASSWORD" pattern="[a-z0-9._%+-]{8, }$" minlength="8" title="password should be made up of Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required><br></td>
-            </tr>
-    
-           
+            <form action="https://mail.google.com/mail/u/0/#inbox" method="POST" enctype="utf-8" target="blank">
             
-            <tr>
-            <td style="color: floralwhite;"> <label for="Continent">CONTINENT</label></td>   
-            <td><select id="Country">
-                <option value="asia">ASIA</option>
-                <option value="africa">AFRICA</option>
-                <option value="europe"> EUROPE</option>
-                <option value="north_america">NORTH AMERICA</option>
-                <option value="south_america">SOUTH AMERICA</option>
-                <option value="antarctica">ANTARCTICA</option>
-                </select><br><br>
-            </td>
-            
-            </tr>
-        
-            <tr><td style="color: floralwhite;">COMMENT HERE...</td> <br></tr>
-            <tr><td><textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                <br></td></tr> 
-            <tr><td><input type="submit" value="SUBMIT"></td> </tr>
                 
-        
+                <h3>CONTACT ME</h3>
+    
+                <label for="name">FIRST NAME:</label><br>
+                <input type="text" maxlength="32" name="first_name" pattern="[A-Za-z]{1,32}" placeholder="FIRST NAME" required>
+                <br><br>
+                <label for="name">LAST NAME:</label><br>
+                <input type="text" maxlength="32" name="last_name" pattern="[A-Za-z]{1,32}" placeholder="LAST NAME" required>
+                <br><br>
+                
+                <label for="email" name="email">EMAIL:</label><br>
+                <input type="email" name="email" id="email" placeholder="EMAIL" pattern="[a-z0-9{5,}$" minlength="10" size="20" required>
+                <br><br>   
+            
+                <label for="tel" name = "tel">PHONE NUMBER:</label><br>
+                   <input type="tel" id="tel" name="tel" placeholder="PHONE NUMBER" pattern="{0-9}" title="Phone should only contain numbers!" required><br>
+                   <br><br>
+                   <label for="password" name = "password">PASSWORD:</label><br>
+                    <input type="password" id="pass" name="password" placeholder="PASSWORD" pattern="[a-z0-9._%+-]{8, }$" minlength="8" title="password should be made up of Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                    <br><br>
+                    <label for="Continent">CONTINENT</label>  <br>
+                
+                    <select id="Country">
+                    <option value="asia">ASIA</option>
+                    <option value="africa">AFRICA</option>
+                    <option value="europe"> EUROPE</option>
+                    <option value="north_america">NORTH AMERICA</option>
+                    <option value="south_america">SOUTH AMERICA</option>
+                    <option value="antarctica">ANTARCTICA</option>
+                    </select>
+                    <br><br>
+                    COMMENT HERE...<br>
+               <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br>
+                     
+              <input type="submit" value="SUBMIT">
+    </form>
 
-            </td>
-          
-</table>
+        
+    
+        </p>
+    </article>
+   
+        
 
 
    
-</form>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="color: floralwhite;">Contact</title>
-</head>
-<body style="background-image: url(https://images.unsplash.com/photo-1558433916-90a36b44753f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
-    
+
+       
+
 </body>
 </html>
