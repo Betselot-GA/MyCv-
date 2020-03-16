@@ -1,0 +1,858 @@
+header{
+
+    position: fixed;
+    width: 97%;
+    height: 0%;
+    margin-top: -70px;
+   border-style: dashed;
+   text-transform: uppercase;
+   text-shadow: 3px 2px black;
+
+}
+
+nav >ul > li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 20px;
+    
+    background-color:silver;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+
+}
+nav>ul>li:hover
+{
+    background-color:skyblue;
+}
+
+
+
+
+.pictures{
+
+    width: 100%;
+    height: 90%;
+    top: 10px;
+    padding: 5px;
+
+    margin-left: -7px;
+    margin-top: 150px;
+    box-shadow: 10px 10px 5px grey;
+   
+    align-items: right;
+    
+    
+}
+
+
+
+
+
+body{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    background-position: center center;
+}
+
+
+
+
+.column1{
+     
+    border-right: solid;
+    padding: 100;
+    height: 120px;
+    width: 143px;
+    margin-left: 500px;
+    margin-top: 10%;
+    border-left: solid;
+    border-bottom: solid;
+ }
+
+ .row1{
+     border-bottom: solid;
+     border-right: solid;
+     border-top: solid;
+    padding: 50px;
+     padding-left: 80px;
+     width: 15px;
+     margin-left: 355px;
+     margin-top: -3px;
+     
+     
+
+     
+ }
+.column2{
+     border-right: solid;
+     border-top: solid;
+     border-left: solid;
+     padding: 60px;
+     height: -3px;
+     width: 23px;
+     margin-left: 500px;
+     
+     padding-bottom: 45px;
+     margin-top: -3px;
+
+ } 
+
+ 
+.column3{
+    border-left: solid;
+    border-top: solid;
+    border-bottom: solid;
+    padding: 100;
+    height: 100px;
+    width: 120px;
+    margin-left: 646px;
+    margin-top: -211px;
+}
+
+
+
+
+
+
+
+
+.france{
+    margin-top: -40px;
+    margin-left: 330px;
+  
+   width: 160px;
+
+}
+
+.blue{
+
+    width: 60px;
+    height: 180px;
+    background-color: #000058;
+    margin-top: 100px;
+    margin-left: 90px;
+
+}
+
+.white{
+
+    width: 50px;
+    height: 180px;
+    background-color: white;
+    margin-top: -180px;
+    margin-left:140px ;
+
+}
+.red{
+
+    width: 50px;
+    height: 180px;
+    background-color: red;
+    margin-top: -180px;
+    margin-left: 180px;
+
+}
+
+.etihopia{
+
+    
+   flex-direction: column;
+  
+}
+
+.green{
+    position: absolute;
+    left: 50px;
+    top: 143px;
+    background-color:green;
+    padding-bottom:60px;
+    padding-right: 220px; 
+}
+   
+   
+.ered{
+    position: absolute;
+    left: 50px;
+    top: 261px;
+    background-color: red;
+    
+    padding-bottom:59px;
+    padding-right: 220px;
+
+}
+.yellow{
+    position: absolute;
+    left: 50px;
+    top: 202.5px;
+    background-color:yellow;
+    
+    padding-bottom:58px;
+    padding-right: 220px;
+}
+.star{
+    position: absolute;
+    left: 115px;
+    top: 189px;
+    
+}
+
+.gblack{
+
+    position: absolute;
+    left: 650px;
+    top: 138px;
+    padding-bottom: 60px;
+    background-color: black;
+    width: 210px;
+    margin-left: 80px;
+
+}
+.gred{
+    position: absolute;
+    left: 650px;
+    top: 198px;
+    padding-bottom: 60px;
+    background-color: red;
+    width: 210px;
+    margin-left: 80px;
+}
+.gyellow{
+    position: absolute;
+    left: 650px;
+    top: 258px;
+    padding-bottom: 60px;
+    background-color: yellow;
+    width: 210px;
+    margin-left: 80px;
+}
+
+.igreen{
+    position: absolute;
+
+    width: 60px;
+    height: 180px;
+    background-color: green;
+    margin-top: -180px;
+    margin-left: 870px;
+
+
+}
+
+.iwhite{
+
+    position: absolute;
+
+    width: 60px;
+    height: 180px;
+    background-color: white;
+    margin-top: -180px;
+    margin-left: 930px;
+
+}
+.ired{
+
+    position: absolute;
+
+    width: 60px;
+    height: 180px;
+    background-color:red;
+    margin-top: -180px;
+    margin-left: 990px;
+
+}
+
+.rwhite{
+
+    position: absolute;
+
+    width: 225px;
+    height: 60px;
+    background-color:white;
+    margin-top: 80px;
+    margin-left: 40px;
+    
+
+
+}
+.rblue{
+
+    position: absolute;
+
+    width: 225px;
+    height: 60px;
+    background-color:#000058;
+    margin-top: 140px;
+    margin-left: 40px;
+
+}
+.rred{
+
+    position: absolute;
+
+    width: 225px;
+    height: 60px;
+    background-color: red;
+    margin-top: 200px;
+    margin-left: 40px;
+
+
+}
+.jwhite{
+
+    position: absolute;
+
+    width: 225px;
+    height: 180px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 340px;
+    
+
+}
+
+.jred{
+
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 120px;
+    margin-left: 400px;
+    border-radius: 100%;
+
+
+}
+
+.cred1{
+    position: absolute;
+
+    width: 65px;
+    height: 180px;
+    background-color: red;
+    margin-top: 80px;
+    margin-left: 640px;
+
+
+
+}
+.cwhite{
+
+    position: absolute;
+
+    width: 145px;
+    height: 180px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 705px;
+
+
+
+}
+.cred2{
+
+    position: absolute;
+
+    width: 65px;
+    height: 180px;
+    background-color: red;
+    margin-top: 80px;
+    margin-left: 850px;
+
+
+}
+.clogo{
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 718px;
+
+}
+.iiwhite{
+    position: absolute;
+
+    width: 270px;
+    height: 180px;
+    background-color:white;
+    margin-top: 80px;
+    margin-left: 970px;
+
+}
+
+.iiblue1{
+
+    position: absolute;
+
+    width: 270px;
+    height: 35px;
+    background-color:blue;
+    margin-top: 95px;
+    margin-left: 970px;
+
+
+}
+.iiblue2{
+
+    
+
+    position: absolute;
+    top: 530px;
+    width: 270px;
+    height: 35px;
+    background-color:blue;
+    
+    margin-left: 970px;
+
+
+
+}
+
+.iilogo{
+
+    position: absolute;
+    top: 451px;
+    margin-left: 1070px;
+
+}
+
+.ssred{
+    position: absolute;
+    
+   width: 229px;
+   height: 50px;
+   background-color: red;
+   top: 650px;
+   left: 45px;
+
+
+}
+.sswhite{
+
+    position: absolute;
+    
+   width: 229px;
+   height: 50px;
+   background-color:white;
+   top: 700px;
+   left: 45px;
+
+}
+
+.ssblack{
+
+    position: absolute;
+    
+   width: 229px;
+   height: 50px;
+   background-color:black;
+   top: 750px;
+   left: 45px;
+
+}
+
+.ssgreen{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 340px;
+
+    width: 50px;
+	height: 1px;
+	border-top: 75px solid transparent;
+	border-left: 90px solid green;
+	border-bottom: 75px solid transparent;
+}
+
+.ppwhite{
+
+    position: absolute;
+    
+    width: 229px;
+   height: 75px;
+   background-color:white;
+   top: 650px;
+   left: 345px;
+  
+
+    
+
+}
+
+.ppred{
+
+    position: absolute;
+    
+    width: 229px;
+   height: 75px;
+   background-color:red;
+   top: 725px;
+   left: 345px;
+
+}
+
+.aared1{
+
+    position: absolute;
+ 
+
+    width: 275px;
+   height: 50px;
+   background-color:red;
+   top: 650px;
+   left: 650px;
+
+
+}
+.aawhite{
+    position: absolute;
+ 
+
+    width: 275px;
+   height: 50px;
+   background-color:white;
+   top: 700px;
+   left: 650px;
+
+}
+
+.aared2{
+
+    position: absolute;
+ 
+
+    width: 275px;
+   height: 50px;
+   background-color:red;
+   top: 750px;
+   left: 650px;
+
+}
+
+.uugreen{
+
+    position: absolute;
+    
+
+    width: 275px;
+   height: 50px;
+   background-color:darkblue;
+   top: 650px;
+   left: 980px;
+    
+
+
+}
+
+.uuwhite{
+    position: absolute;
+ 
+
+    width: 275px;
+   height: 50px;
+   background-color:yellow;
+   top: 700px;
+   left:980px;
+
+
+
+}
+
+.uublack{
+
+    position: absolute;
+ 
+
+    width: 275px;
+   height: 50px;
+   background-color:darkblue;
+   top: 750px;
+   left:980px;
+
+
+}
+.uured{
+
+    position:absolute;
+     margin-left: 37px;
+    margin-top: 340px;
+
+    left: 942px;
+
+    width: 50px;
+	height: 1px;
+	border-top: 75px solid transparent;
+	border-left: 90px solid black;
+	border-bottom: 75px solid transparent;
+
+
+}
+
+.name1{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 160px;
+    left: 100px;
+}
+
+.name2{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 200px;
+    left: 460px;
+
+}
+
+.name3{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 200px;
+    left: 790px;
+
+}
+
+.name4{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 200px;
+    left: 1110px;
+}
+
+.name5{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top:470px;
+    left: 120px;
+}
+.name6{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 470px;
+    left: 415px;
+}
+
+.name7{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 475px;
+    left: 740px;
+}
+.name8{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 420px;
+    left: 1080px;
+    
+}
+
+.name9{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 705px;
+    left: 150px;
+}
+
+.name10{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 700px;
+    left: 420px;
+}
+.name11{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 700px;
+    left: 730px;
+
+}
+
+.name12{
+
+    position: absolute;
+    font-style: italic;
+    font-family: monospace;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+    top: 700px;
+    left: 1060px;
+}
+
+
+.italy{
+
+    left: 600px;
+    margin-left: 180px;
+}
+
+/* .ethiopia{
+    position: absolute;
+    border: solid;
+    top: 150px;
+    background-color: black;
+    padding: 10px;
+} */
+
+.fflags{
+
+    position: fixed;
+    font-style: italic;
+    font-family: monospace;
+    color: dimgray;
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+
+
+    margin-left: -5px;
+    top: 100px;
+    
+  
+    
+}
+
+.all{
+   
+    top: 280px;
+  
+}
+
+.q4{
+
+    background-color:rgba(255,255,255,0.4);
+    width: 50%;
+    
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: large;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: justify;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+color:black;
+font-style: oblique;
+border-radius: 60px;
+padding: 10px;
+
+
+}
+
+.q5{
+
+    background-color:rgba(255,255,255,0.4);
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: justify;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+color: black;
+font-style: oblique;
+
+border-radius: 60px;
+padding: 10px;
+
+
+
+}
+
+.q6{
+
+    background-color:rgba(255,255,255,0.4);
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: justify;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+color: black;
+font-style: oblique;
+
+border-radius: 60px;
+padding: 10px;
+
+
+
+}

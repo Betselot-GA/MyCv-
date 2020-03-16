@@ -3,57 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betselot G./blog</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Blog</title>
+    <link rel="stylesheet" href="flag.css">
+
+    <header>
+
+        <nav>
+    
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT-ME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="myworks.html" target="_balnk">My works</a></li>
+                <li><a href="firstquestion.html" target="_balnk">Question1</a></li>
+                <li><a href="secondquestion.html" target="_balnk">Question2</a></li>
+                <li><a href="thirdquestion.html" target="_balnk">Question3</a></li>
+                <li><a href="blog.html" target="_balnk">Blog</a></li>
+            </ul>
+    
+        </nav>
+    
+    </header>
+</head>
+
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav>
-<ul>
-    <li><a href="index.html" target="_balnk">Home</a></li>
-    <li><a href="contact.html" target="_balnk">Contact</a></li>
-    <li><a href="gallery.html" target="_balnk">Gallery</a></li>
-    <li><a href="blog.html" target="_balnk">Blog</a></li>
-</ul>
+    <p style="margin-top: 80px; margin-left: 70px;">
+        <img src="https://designhooks.com/wp-content/uploads/2016/04/html5-and-css3.png" style="border-radius: 5%;" width="90%" height="50%">
+    </p>
+    
 
-        </nav>
+    <p style="font-style: oblique;font-size: xx-large;margin-left: 500px;margin-top: 80px;"> Title</p>
 
+    <div class="q4">
 
-    </header>
+        <p style="font-style: italic;font-size: larger;">
 
-<div id="content">
-    <section>
-
-        <p class="title">
-            <h3>MY FIRST POST</h3>
-            The site could be temporarily unavailable or too busy. Try again in a few moments.
-If you are unable to load any pages, check your computer’s network connection.
-If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the Web.
-        </p>
-        <article>
-            <p>the quick brown fox jumps over the lazy dog</p>
-            <p>the quick brown fox jumps over the lazy dog</p>
-            <p>the quick brown fox jumps over the lazy dog</p>
-            <p>the quick brown fox jumps over the lazy dog</p>
-            <p>the quick brown fox jumps over the lazy dog</p>
-            <p>the quick brown fox jumps over the lazy dog</p>
-        </article>
-        <p class="date">
-           The site could be temporarily unavailable or too busy. Try again in a few moments.
-           If you are unable to load any pages, check your computer’s network connection.
-            If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the Web.
+            <b>
+                Does it matter to use relative size(%,em,rem) one styling the size of an element is responsible? why?<br>
+            Hint: consider the browsers capability of providing zoom feature.
+            </b>
+            
         </p>
 
+        <p>
+            First of all we should know what we mean by rem Units. According to W3C spec the definition for one rem unit is :<br>
+    Equal to the computed value of font-size on the root element. When specified on the font-s	size property of the<br> 
+    root element,the rem units refer to the property’s initial value.This means that 1 rem equals the font size of<br>
+    the html element(which for most browsers has a default value of 16px).
+        </p>
 
-    </section>
-</div>
+        <p>
+            Em is used to set the element’s font-size property itself, it’s value is relative to the font size of the<br>
+             element’s parent. The relative nature of an em makes it an essential part of building sites today, specially those<br>
+              designed to adjust for screen sizes. This practice is known as responsive web design.Meanwhile, a rem unit is relative<br>
+               to the font size of the html element. Unlike ems, CSS pixels(px) are not relative to other style rules. So values in px aren’t<br>
+                affected by the font size of an elment. However, in today’s broad device landscape (phones, tablets, and so on), a pixel isn’t considered<br>
+                the predictable unit of measure it once was. that’s because a pixel isn’t necessarily the same size on one type of device as it is on another.
+        </p>
 
+        <p>
+            A percentage value-65%, for example- works much like an em, in that it is relative to some other value. For this reason, percentage values are another powerful tool for building responsive websites.
+In media queries relative units are based on the initial value, which means that units are never based on results of declarations. For example, in html the em unit is relative to the initial value of font-size, defined by the user agent or the user’s preferences, not any styling on the page.
+One of the main uses of rem units is to build scalable components. By expressing widths, marins, and padding in rem units, it becomes possible to create an interface that grows or shrinks in tune with the root font size.
+        </p>
 
+        <p>
+            In general, it is obvious that there are many advantages in using these units in our code, like responsiveness, scalability, improved reading experience, and greater flexibility in defining components. Rem units not a universal silver bullet solution but, with careful deployment, they can solve many problems that have irked developers for years. it’s up to each one of us to unlock the full potential of rems. 
+        </p>
 
+    </div>
+
+    <div class="q5">
+
+        <p style="font-style: italic; font-size: larger;">
+            <b>
+                We said 16px is default browser width so what does it mean when we say 200px? How does the browser interpret that?
+
+            </b>
+        </p>
+
+        <p>
+            First of all we must know what a pixel is. 
+
+A pixel, or px in web development is an absolute unit. It you set elements to 16pixels, every one of those elements will be exactly the same.
+        </p>
+
+        <p>
+            The size of a display will be set in pixels. For example, a common laptop screen size could be 1366 x 768 pixels, meaning that 1366 pixels would fit the width pf this screen . You can probably already guess the limitations of this unit. Create a header for example of 1400px wide and it wouldn’t fit on this common laptop, causing the need for the user to scroll horizontally to view the header completely.
+        </p>
+
+        <p>
+            If you use pixels in CSS it may not fit your visitor’s screen. So when we didn’t specify width , CSS
+s default width 16px would be set, where as if we set 200px, the browser interprets that as 1rem = 200px , or 1em = 200px. Which means a fixed sized of 200px independent of the size of the device the client might use.
+        </p>
+        
+
+    </div>
+
+    <div class="q6">
+        <p style="font-style: italic; font-size: larger;">
+            <b>
+                Explain in detail (in technical terms) the specific changes in css3.    
+            </b>
+            
+        </p>
+
+        <p>
+            The latest version of Cascade Style Sheets, CSS 3, was developed to make Web design easier but it became a hot topic for a while because not all browsers supported it. However, trends change quickly in technology and all browser manufacturers is CSS 3’s modularized specification, which allows them to provide support for modules incrementally without having to perform major refactoring of the browser’s codebases.
+        </p>
+
+        <p>
+            1. CSS 3 Selectors<br><br>
+In addition to the selectors that were available in CSS2, CSS3 introduces some new selectors. Using these selectors you can choose DOM elements based on their attributes. So you don’t need to specify classes and ID for every element. Instead, you can utilize the attribute field to style them.
+        </p>
+
+        <p>
+            2. CSS3 Rounded Corners<br><br>
+
+Rounded corners elements can spruce up a website, but creating a rounded corner requires a designer to write lot of code. Adjusting the height, width and positioning of these elments is a never-ending chore because any change in content can break them.
+
+CSS3 addresses this problem by introducing the border – radius property, which gives you the same rounded corner effect and you don’t have to write all the code.
+        </p>
+
+        <p>
+            3. Border Image<br><br>
+
+Another exciting feature in CSS3 is the ability to swap out a border with an image. The property border-image allows you to specify an image to display instead of a plain solid-colored border.
+
+        </p>
+        <p>
+            4. CSS3 Box Shadow<br><br>
+
+A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.
+ 
+        </p>
+
+        <p>
+            5. CSS3 Text Shadow<br><br>
+
+Thew new Text-shadow property allows you to add drop shadows to the text on a web page. Prior to CSS3, this would be done by either using an image or duplicating a text element and then positioning it. A similar property called box-shadow is also available in CSS3. 
+
+        </p>
+
+    </div>
+
+    <p style="color: black;margin-top: 140px;" align="center"><b>Developed By BETSELOT GETNET &copy;2020</b></p>   
     
 </body>
-
-
-
 </html>
