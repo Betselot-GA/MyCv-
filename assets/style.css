@@ -1,48 +1,21 @@
-/* ELEMENT SELECTOR [TAG] */
-
-body{
-
-    background-color:black;
-    border: 10px lightgray solid;
-    margin: 10px;
-}
-
 header{
+
     position: fixed;
     width: 97%;
     height: 0%;
-    background-color: black;
-    border-bottom: solid;
+    margin-top: -70px;
+   border-style: dashed;
+   text-transform: uppercase;
+  
 
 }
-
-section{
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 5px 30px;
-    margin: 100px;
-}
-article{
-    font-size: 15px;
-    text-align: justify;
-    line-height: 25px;
-}
-.title{
-    font-size: 23px;
-}
-
-.date{
-
-    font-style: italic;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-/* changing the nature */
 
 nav >ul > li {
     display: inline-block;
-    padding: 10px 3px;
+    padding: 20px 10px;
     font-size: 20px;
+    
+    background-color:silver;
 }
 
 nav>ul>li>a{
@@ -51,17 +24,47 @@ nav>ul>li>a{
 }
 nav>ul>li:hover
 {
-    background-color:#ffffff ;
+    background-color:skyblue;
 }
 
-img{
-    float: left;
-    border-radius: 100%;
-    border-style: hidden;
-    width: 250px;
-    height: 250px;
-    margin: 0px 15px 0px 3px;
+body{
+    background-color: #bdc3c7;
+
+    padding-top: 70px;
 }
-#clear{
-    clear: left;
+h1{
+    color:#9b59b6
 }
+h2{
+    color: orange;
+}
+ul>li{
+    color:#000063;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border-color: red;
+   /*Make all inputs have a 3px red border*/   
+}
+.hello{
+    background-color: white;
+}
+
+#special{
+    
+    border: solid #000063;
+}
+
+div>p{
+    font-size: 25px;
+}
+
+input[type=text]{
+    background-color: gray;
+}
+div p:only-child {
+    background-color: pink;
+ }
+ 
