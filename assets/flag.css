@@ -6,6 +6,7 @@ header{
     margin-top: -70px;
    border-style: dashed;
    text-transform: uppercase;
+   color: floralwhite;
  
 
 }
@@ -16,6 +17,7 @@ nav >ul > li {
     font-size: 20px;
     
     background-color:silver;
+    color: floralwhite;
 }
 
 nav>ul>li>a{
@@ -162,12 +164,13 @@ body{
 
     
    flex-direction: column;
+ 
   
 }
 
 .green{
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 143px;
     background-color:green;
     padding-bottom:60px;
@@ -177,7 +180,7 @@ body{
    
 .ered{
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 261px;
     background-color: red;
     
@@ -187,7 +190,7 @@ body{
 }
 .yellow{
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 202.5px;
     background-color:yellow;
     
@@ -196,7 +199,7 @@ body{
 }
 .star{
     position: absolute;
-    left: 115px;
+    left: 100px;
     top: 189px;
     
 }
