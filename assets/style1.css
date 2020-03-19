@@ -4,7 +4,7 @@ header{
   width: 97%;
   height: 0%;
   margin-top: -30px;
- border-style: dashed;
+
  text-transform: uppercase;
 
 
@@ -15,7 +15,7 @@ nav >ul > li {
   padding: 20px 10px;
   font-size: 20px;
   
-  background-color:silver;
+  background-color:floralwhite;
 }
 
 nav>ul>li>a{
@@ -25,6 +25,10 @@ nav>ul>li>a{
 nav>ul>li:hover
 {
   background-color:skyblue;
+}
+
+a:visited{
+	color: grey;
 }
 
 

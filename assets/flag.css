@@ -4,7 +4,7 @@ header{
     width: 97%;
     height: 0%;
     margin-top: -70px;
-   border-style: dashed;
+
    text-transform: uppercase;
    color: floralwhite;
  
@@ -16,7 +16,7 @@ nav >ul > li {
     padding: 20px 10px;
     font-size: 20px;
     
-    background-color:silver;
+    background-color:floralwhite;
     color: floralwhite;
 }
 
@@ -27,6 +27,10 @@ nav>ul>li>a{
 nav>ul>li:hover
 {
     background-color:skyblue;
+}
+
+a:visited{
+	color: grey;
 }
 
 
@@ -124,7 +128,7 @@ body{
 
 
 .france{
-    margin-top: -40px;
+    margin-top: -30px;
     margin-left: 330px;
   
    width: 160px;
@@ -461,7 +465,7 @@ body{
 .ssgreen{
     position: absolute;
     margin-left: 45px;
-    margin-top: 340px;
+    margin-top: 330px;
 
     width: 50px;
 	height: 1px;
@@ -581,7 +585,7 @@ body{
 
     position:absolute;
      margin-left: 37px;
-    margin-top: 340px;
+    margin-top: 330px;
 
     left: 942px;
 
@@ -858,4 +862,70 @@ padding: 10px;
 
 
 
+}
+
+.link1{
+
+    position: absolute;
+    float: top;
+
+    margin-top: -2800px;
+    margin-left: 950px;
+
+}
+
+.link2{
+
+    position: absolute;
+    float: left;
+    margin-top:120px ;
+    margin-left: 945px;
+    
+
+}
+
+.link3{
+
+    position: absolute;
+    float: top;
+
+    margin-top: -2300px;
+    margin-left: 950px;
+
+}
+
+.link4{
+
+    position: absolute;
+    float: left;
+    margin-top:600px ;
+    margin-left: 945px;
+
+
+}
+
+.link5{
+
+    position: absolute;
+    float: left;
+    margin-top:1000px ;
+    margin-left: 945px;
+
+}
+
+.link6{
+
+    position: absolute;
+    float: left;
+    margin-top:1400px ;
+    margin-left: 945px;
+
+}
+
+.link7{
+
+    position: absolute;
+    float: left;
+    margin-top:1700px ;
+    margin-left: 945px;
 }
