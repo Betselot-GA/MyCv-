@@ -31,7 +31,7 @@ nav>ul>li:hover
 /* Give the <body> element a background of #bdc3c7*/
 
 body{
-    display: flex;
+  
     background-color: #bdc3c7;
 
     padding-top: 70px;
