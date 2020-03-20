@@ -65,16 +65,16 @@ body{
 
 }
 article{
-    position: relative;
+    position: absolute;
     color: floralwhite;
     float: left;
-    margin: -25px 50px 0px -10px;
+    margin: 640px 50px 0px -10px;
     background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 98.3%;
-    height: 150%;
+    width: 97%;
+    height: 155%;
     padding-left: 3%;
    border-bottom: greenyellow;
 }
